@@ -1,0 +1,38 @@
+/* TYPOGRAPHY */
+* {margin: auto; padding: 0;}  body {font-family: "futura-pt", sans-serif; color: #f4eedf; background-color: #272924;} h1 {padding-top: 20px; font-size: 45px;} h2 {padding-top: 50px;} 
+.title {padding-top: 0;} .subtitle {padding-top: 0;} p {font-size: 18px; padding: 10px 0;} .bringtofront {position: relative; z-index: 999;} 
+#credits {padding: 0; width: 90%; max-width: 900px;} 
+a {color: #6f9b94; text-decoration: none; transition: 200ms; transition-timing-function: ease-in-out; -webkit-transition: 200ms; -webkit-transition-timing-function: ease-in-out;} 
+a:hover {color: #8EC7BF;} 
+/* IMAGES */img {width: 100%;} .border {border: 5px solid #f4eedf;} 
+/* BUTTONS */button {font-family: "futura-pt", sans-serif; font-size: 17px; border: none; -webkit-appearance: none; -moz-appearance: none; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #6f9b94; box-sizing: border-box; height: 32px; line-height: 32px; padding: 0 18px; display: inline-block; margin: 0; transition: all 200ms ease-in-out;} 
+button:hover {background-color: #8EC7BF; cursor: pointer;} 
+/* CONTAINER */#mainwidth {width: 90%; max-width: 900px; height: auto; padding: 2px 20px; margin: 0 auto;}
+.container {display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; grid-gap: 50px;} 
+/* HEADER */#header {display: inline-block;} .button {height: 40px; width: auto;} #nextlogo {margin-top: 10px;} #seriestitle {padding-top: 17px; float: right; font-weight: bold;} 
+/* GRID */.big-box {text-align: center;} .cap {pointer-events: none;} .box {display: inline-block; width: 350px; height: 375px; margin: 2em 1em; vertical-align: middle;} 
+.box-single {display: block; width: 100%; height: 100%; max-width: 400px; margin: auto; vertical-align: middle;} .world {grid-column-start: 1; grid-column-end: 3;} 
+/* THE BIG CIRCLE */ #bigcircle {height: 550px; width: 100%; position: relative;} #bigcircle svg {position: absolute; top: 50%; bottom: 50%;} 
+/* TERMS OF ENDANGERMENT */ #bluebox {border: 5px solid #609c94;} #peachbox {border: 5px solid #ff8e78;} #redbox {border: 5px solid #fd4851;} #plumbox {border: 5px solid #973D57;} 
+/* NEAREST LANGUAGE */.nearest {display: flex; align-items: center; justify-content: center;} #nearest-loading {width: 64px; height: 64px; display: none;} 
+/* THE WORLD */#earth_div {width: 100%; height: 400px;} .mapboxgl-popup-content {color: #272924; max-width: 300px;} 
+/* OUTRO */.spacer {width: 50px; height: auto; padding-top: 40px; display: block; margin-left: auto; margin-right: auto;} #outro {text-align: center; padding-top: 50px;} 
+a svg .social {transition: 200ms; transition-timing-function: ease-in-out; -webkit-transition: 200ms; -webkit-transition-timing-function: ease-in-out;} 
+a svg:hover .social {fill: #8EC7BF;} #twitter {padding: 20px 0 0 10px;} #facebook {padding-top: 20px 10px 10px 0px;} #mc_embed_signup form {text-align: center; padding: 10px 0 50px 0;} 
+.mc-field-group {display: inline-block;} 
+/* positions input field horizontally */
+#mc_embed_signup input.email {font-family: "futura-pt", sans-serif; font-size: 17px; border: 1px solid #f4eedf; -webkit-appearance: none; -moz-appearance: none; border-radius: 3px; color: #272924; background-color: #f4eedf; box-sizing: border-box; height: 32px; padding: 0px 0.4em; display: inline-block; margin: 0; width: 350px; vertical-align: top;} 
+#mc_embed_signup label {display: block; font-size: 16px; padding-bottom: 10px; font-weight: bold;} #mc_embed_signup .clear {display: inline-block;} 
+/* positions button horizontally in line with input */
+#mc_embed_signup .button {font-family: "futura-pt", sans-serif; font-size: 17px; border: none; -webkit-appearance: none; -moz-appearance: none; border-radius: 3px; letter-spacing: .03em; color: #fff; background-color: #6f9b94; box-sizing: border-box; height: 32px; line-height: 32px; padding: 0 18px; display: inline-block; margin: 0; transition: all 200ms ease-in-out;} 
+#mc_embed_signup .button:hover {background-color: #8EC7BF; cursor: pointer;} 
+#mc_embed_signup div#mce-responses {float: left; top: -1.4em; padding: 0em .5em 0em .5em; overflow: hidden; width: 90%; margin: 0 5%; clear: both;} 
+#mc_embed_signup div.response {margin: 1em 0; padding: 1em .5em .5em 0; font-weight: bold; float: left; top: -1.5em; z-index: 1; width: 80%;} 
+#mc_embed_signup #mce-error-response {display: none;} #mc_embed_signup #mce-success-response {color: #529214; display: none;} 
+#mc_embed_signup label.error {display: block; float: none; width: auto; margin-left: 1.05em; text-align: left; padding: .5em 0;} 
+@media (max-width: 768px) {#mc_embed_signup input.email {width: 100%;margin-bottom: 5px; } #mc_embed_signup .clear {display: block; width: 100%} #mc_embed_signup .button {width: 100%;margin: 0; }}
+/* SERIES INTRO */#seriesintro {width: 250px; display: block; margin-left: auto; margin-right: auto;} #serieslogo {width: 250px;} 
+/* MEDIA QUERIES */@media (max-width: 768px) {h3 {top: 750px; padding: 0 100px; }  h4 {top: 570px;}    #earth_div {height: 700px;width: auto;}}
+@media (max-width:560px) {h3 {top: 700px; padding: 0 60px; } h4 {top: 560px; font-size: 125px; }  .container {display: grid; grid-template-columns: 100%; grid-template-rows: auto; grid-gap: 5px;}
+ .showcasetext {padding-bottom: 30px; }  #showcase1-image {order: 1; }  #showcase1-text {order: 2; }  #showcase2-image {order: 3; }  #showcase2-text {order: 4; }  #showcase3-image {order: 5; }
+    #showcase3-text {order: 6; }  #showcase4-image {order: 7; }  #showcase4-text {order: 8; }  .world {    grid-column-end: 2; }   #earth_div {    height: 450px; width: auto; }}
